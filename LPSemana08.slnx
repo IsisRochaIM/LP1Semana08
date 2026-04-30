@@ -1,2 +1,5 @@
 <Solution>
+  <Project Path="ClassVsStruct/ClassVsStruct.csproj" />
+  <Project Path="GameUnit/GameUnit.csproj" />
+  <Project Path="StructWithRef/StructWithRef.csproj" />
 </Solution>
