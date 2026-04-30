@@ -9,11 +9,11 @@ namespace ClassAction
     {
         private int Intelligence {get;set;}
 
-        public override void Describe() => Console.WriteLine("nam");
+        public override void Describe() => Console.WriteLine($"{Name} [Witch] (Health: {Health}, Damage: {Damage}, Intelligence: {Intelligence})");
 
-       public Witch(string name, int health, int damage) : base(name , health, damage)
+       public Witch(string name, int health, int damage, int intelligence) : base(name , health, damage)
         {
-            
+            Intelligence = intelligence;
         }
     }
 }

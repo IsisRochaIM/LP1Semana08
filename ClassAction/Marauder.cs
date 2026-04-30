@@ -9,11 +9,11 @@ namespace ClassAction
     {
         private int Strength {get;set;}
 
-        public override void Describe() => Console.WriteLine("nam");
+        public override void Describe() => Console.WriteLine($"{Name} [Marauder] (Health: {Health}, Damage: {Damage}, Strength: {Strength})");
 
-       public Marauder(string name, int health, int damage) : base(name , health, damage)
+       public Marauder(string name, int health, int damage, int strength) : base(name , health, damage)
         {
-            
+            Strength = strength;
         }
     }
 }
