@@ -17,5 +17,10 @@ namespace ClassAction
             Strength = strength;
             Intelligence = intelligence;
         }
+
+         public override void Attack()
+        {
+            Console.Write("Attack: Divine Blast!");
+        }
     }
 }

@@ -16,5 +16,9 @@ namespace ClassAction
             Dexterity = dexterity;
         }
 
+         public override void Attack()
+        {
+            Console.Write("Attack: Fangs of Frost!");
+        }
     }
 }

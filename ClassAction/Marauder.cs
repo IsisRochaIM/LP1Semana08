@@ -15,5 +15,10 @@ namespace ClassAction
         {
             Strength = strength;
         }
+
+         public override void Attack()
+        {
+            Console.Write("Attack: Earthquake!");
+        }
     }
 }

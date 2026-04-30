@@ -15,5 +15,10 @@ namespace ClassAction
         {
             Intelligence = intelligence;
         }
+
+         public override void Attack()
+        {
+            Console.Write("Attack: Essence Drain!");
+        }
     }
 }
